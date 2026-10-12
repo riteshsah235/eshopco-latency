@@ -7,10 +7,6 @@ Uses the supplied telemetry JSON and a Vercel Python function.
 - `data/telemetry.json`: sample telemetry data
 - `vercel.json`: Vercel function configuration and data-file bundling
 
-## Deploy
-1. Create a GitHub repository and upload the contents of this folder, preserving `api/` and `data/`.
-2. Import the repository at https://vercel.com/new.
-3. Deploy. Your POST endpoint will be `https://YOUR-DEPLOYMENT-DOMAIN/api`.
 
 ## PowerShell POST test
 ```powershell
